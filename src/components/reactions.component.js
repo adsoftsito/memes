@@ -23,15 +23,8 @@ const Reactions = () => {
 
    console.log(JSON.stringify(data));
 	  
-   KafkaService.reaction("adolfo centeno PhD");
-/*      .then((result) => {
-        console.log(result);
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-      */    
-	  e.preventDefault();  
+   KafkaService.reaction("i-love-adsoftsito");
+   e.preventDefault();  
   }
 
 
@@ -41,24 +34,12 @@ const Reactions = () => {
           <div className="form-group">
             
             <button onClick={(e) => {
-	       
-		    /*let data = {};	    
-                this.KafkaService.reaction(data)
-               .then((result) => {
-                   console.log(result);
-                })
-               .catch((e) => {
-                    console.log(e);
-                });
-		*/
-	  e.preventDefault();  
-		    
+	          e.preventDefault();  
 		  saveLike(e, 1)
 		    
-		    }
-		    }
-		    
-		    className="btn btn-success">
+		  }
+	      }
+	     className="btn btn-success">
                Love
             </button>
 		
